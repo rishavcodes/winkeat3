@@ -1,0 +1,31 @@
+.user-container{
+    padding-left: 300px;
+    width: 100vw;
+    height: 100vh;
+}
+.user-upper-part{
+    padding-top: 20px;
+}
+.user-col hr{
+    width: 1000px;
+}
+.user-info-grid{
+    display: flex;
+}
+.user-img img{
+    width: 300px;
+}
+.user-info{
+    padding-top: 200px;
+}
+.user-menu-list{
+    padding-top: 20px;
+}
+.user-menu-list ul li{
+    margin-left: 30px;
+    list-style: none;
+    padding: 6px 0;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}

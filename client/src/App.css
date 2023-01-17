@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+::-webkit-scrollbar {
+  display: none;
+}
+*{
+  text-decoration: none;
+
+}
+textarea:focus, input:focus{
+  outline: none;
+  border: none;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #2694F6;
+}
+.error{
+  align-items: center;
+  text-align: center;
+  margin-top: 50vh;
+}

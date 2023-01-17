@@ -1,0 +1,23 @@
+.inventory {
+  margin-top: 100px !important;
+  margin-left: 3% !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.all-inventory {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .inventory {
+    width: 100%;
+    margin-left: 15% !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,13 @@
+.make-payment-button{
+    text-align: center;
+}
+.make-payment-button button{
+    background: #FFB904;
+    height: 60px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+}

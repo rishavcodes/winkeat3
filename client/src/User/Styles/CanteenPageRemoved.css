@@ -1,0 +1,89 @@
+.maincanteen-container{
+    width: 95vw;
+    height: 100vh;
+}
+.maincanteen-navbar{
+    width: 1210px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.HorizontalScroll .HorizontalScrollTrack {
+    display: none;
+}
+.arrowback-maincanteen{
+    padding-top: 20px;
+    margin-left: 150px;
+    color: #707070;
+}
+.title-maincateen{
+    padding-top: 18px;
+    position: absolute;
+    left: 300px;
+    font-size: 20px;
+    color: #707070;
+    font-family: 'Poppins';
+}
+.canteen-list-maincanteen{
+    display: flex;
+    justify-content: flex-start;
+}
+.canteena-body{
+    padding-left: 130px;
+    padding-right: 100px;
+}
+.canteen-body-body{
+    padding-top: 20px;
+    /* padding-left: 180px; */
+}
+
+.Canteen-body-card-title{
+    font-size: 30px;
+}
+.menu-start{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start
+    
+}
+.meny-start::-webkit-scrollbar{
+    height: 12px;
+    width: 12px;
+    }
+ @media screen and (max-width: 768px) and (min-width: 425px){
+    .hello{
+        display: none;
+    }
+ }
+
+ /* add to cart line start */
+
+.addToCartLine{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 0 20px;
+    background: #FFCF52;
+    height: 60px;
+    width: 80%;
+    border-radius: 10px;
+    z-index: 10;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+
+}
+.navigate-next-icon{
+    position: relative;
+    top: 5px;
+}
+.next-and-icon-maincanteen{
+    cursor: pointer;
+}
+.next-and-icon-maincanteen-h3{
+    color: black;
+}
+
+

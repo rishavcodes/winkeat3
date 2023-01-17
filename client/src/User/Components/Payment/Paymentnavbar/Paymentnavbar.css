@@ -1,0 +1,14 @@
+.payment-navbar{
+    display: flex;
+    padding: 1% 5% 1% 10%;
+}
+.arrowbackicon-payment{
+    padding: 1% 5% 0 2%;
+    cursor: pointer;
+}
+.payment-page-title h2{
+    font-size: 30px;
+    color: #707070;
+    font-family: 'Poppins';
+    font-weight: 600;
+}

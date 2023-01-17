@@ -1,0 +1,42 @@
+.card-form{
+    margin: 10% 10% ;
+    /* border: 1px solid; */
+}
+.cardnumber{
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.expirydate, .cvv{
+    margin-top: 20px;
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.expirydate{
+    margin-right: 10%;
+}
+.nameoncard{
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.save-card-checkbox-text{
+    display: flex;
+    padding-left: 8%;
+    padding-top: 6%;
+}
+.save-card-checkbox{
+    width: 16px;
+}
+.save-card-text{
+    padding-left: 5%;
+}

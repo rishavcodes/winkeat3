@@ -1,0 +1,43 @@
+.canteen-body-header {
+  padding-top: 60px;
+}
+.canteenacard {
+  margin: 20px;
+  width: 100px;
+  height: 135px;
+  border: 1px solid;
+  border-radius: 35px;
+  background-color: #ffffff;
+  color: #707070;
+  margin-right: 15px;
+  border: 1px solid #C1C1C1;
+}
+.canteenacard:hover{
+  transform: scale(1.05);
+  transition:ease-in-out .2s;
+}
+.canteenacard:hover{
+  background-color: #dedede;
+}
+/* .canteenacard:hover  .main-canteen-card-img{
+  width: 72%;
+  animation:ease-in-out 2ms;
+
+} */
+.main-canteen-card-img {
+  display: block;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+/* .canteencard-img {
+  width: inherit;
+  height: 134px;
+} */
+.canteena-card-title {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 10px;
+  color: black;
+}

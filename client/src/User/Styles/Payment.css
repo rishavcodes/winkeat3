@@ -1,0 +1,14 @@
+.container-payment{
+    height: 100vh;
+    width: 90vw;
+}
+.payment-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.payment-body-content{
+    position: absolute;
+    left: 35%;
+}

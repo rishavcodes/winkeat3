@@ -1,0 +1,36 @@
+.order-card-body{
+  margin-top: 30px;
+  margin-left: 250px;
+  border: 0.5px solid;
+  width: 1000px;
+  height: 120px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.card-img-img{
+    height: 118px;
+}
+.card-info{
+  position: relative;
+  right: 80px;
+  top: 20px;
+}
+.card-status{
+    padding-top: 20px;
+}
+.post-order-activity{
+    padding-top: 30px;
+}
+.post-order-activity button{
+    border-radius: 20px;
+    background-color: #499900;
+    font-size: 15px;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}

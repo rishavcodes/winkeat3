@@ -1,0 +1,26 @@
+.creditcard-card{
+    width: 600px;
+    height: auto;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.accepted-cards-img{
+    display: flex;
+
+}
+/* .rupay-logo{
+    position: absolute;
+    top: 4%;
+}
+.visa-logo{
+    position: absolute;
+    top: 4%;
+} */
+.we-accept{
+    position: absolute;
+    top: 10%;
+}
+/* .accepted-card-img{
+    position: absolute;
+    left: 20%;
+} */
