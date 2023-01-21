@@ -1,5 +1,5 @@
 .canteen-body-header {
-  padding-top: 60px;
+  padding-top: 120px;
 }
 .canteenacard {
   margin: 20px;
@@ -40,4 +40,17 @@
   font-weight: 600;
   padding-top: 10px;
   color: black;
+}
+
+@media (max-width: 430px) {
+  .canteenacard {
+    margin: 15px;
+    width: 100px;
+    height: 135px;
+    border-radius: 35px;
+    background-color: #ffffff;
+    color: #707070;
+    margin-right: 8px;
+    border: 1px solid #C1C1C1;
+  }
 }

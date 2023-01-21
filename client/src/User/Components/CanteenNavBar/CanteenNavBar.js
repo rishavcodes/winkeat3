@@ -16,7 +16,8 @@ const CanteenNavBar = () => {
           </Link>
           </div>
           <div className="title-maincateen">
-            <h2>Welcome To <br/>Main Canteen</h2>
+            <h2>Welcome To</h2>
+            <h2 className='main-can-title'>Main Canteen</h2>
           </div>
           <div className="searchbar-maincanteen">
             <SearchBar />

@@ -1,5 +1,5 @@
 .maincanteen-container{
-    width: 95vw;
+    width: 100%;
     height: 100vh;
 }
 .hrforMid{
@@ -53,6 +53,8 @@
     justify-content: center;
     margin-left: 10px;
     /* padding-left: 180px; */
+    width: auto;
+    height: auto;
 }
 
 .Canteen-body-card-title{
@@ -101,4 +103,75 @@
     color: black;
 }
 
+
+/* mobile view */
+
+@media(max-width: 430px){
+    /* .maincanteen-container{
+        max-width: 95vw;
+        height: 100vh;
+    } */
+    .maincanteen-navbar{
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    .arrowback-maincanteen{
+        display: none;
+    }
+    .title-maincateen{
+        padding-top: 18px;
+        position: absolute;
+        left: 30px;
+        font-size: 16px;
+        color: #707070;
+        font-family: 'Poppins';
+    }
+    .canteen-list-Category-card{
+        width: 400px;
+    }
+    .canteena-body{
+        padding: 0 5%;
+    }
+    .menu-start{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start
+        
+    }
+    .menu-start{
+        width: 420px;
+        
+    }
+    /* .canteen-body-body{
+        overflow: ;
+    } */
+    .addToCartLine{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px 0 20px;
+        background: #FFCF52;
+        height: 50px;
+        width: 80%;
+        border-radius: 10px;
+        z-index: 10;
+        position: fixed;
+        bottom: 30px;
+        display: none;
+    }
+    .navigate-next-icon{
+        position: relative;
+        top: 5px;
+    }
+    .next-and-icon-maincanteen{
+        cursor: pointer;
+    }
+    .next-and-icon-maincanteen-h3{
+        color: black;
+    }
+}
 

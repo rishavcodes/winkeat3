@@ -6,3 +6,9 @@
     margin-top: 5px;
     color: black;
 }
+
+@media(max-width: 430px){
+    .main-can-title{
+        font-size: 1.8rem;
+    }
+}
